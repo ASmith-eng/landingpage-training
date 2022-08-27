@@ -5,28 +5,29 @@ body {
 }
 
 .header {
-    color: #F9FAF8;
     background-color: #1F2937;
+    padding: 0 140px 0 140px;
     display: -webkit-box;
     display: -webkit-flex;
     display: flex;
     flex-flow: row no-wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .header div {
-    flex: 1;
-    padding: 12px;
-    text-align: center;
+    flex: inherit;
+    padding: 16px;
 }
 
 .header a {
-    color: inherit;
+    font-size: 18px;
+    color: #E5E7EB;
     text-decoration: none;
-    margin-left: 20px;
+    margin-left: 14px;
 }
 
 .logo {
     font-size: 24px;
+    color: #F9FAF8;
 }
