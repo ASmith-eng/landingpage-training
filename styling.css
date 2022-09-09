@@ -16,7 +16,12 @@ header {
 }
 
 main {
+    margin: 0;
+}
+
+section {
     padding: 0 10% 0 10%;
+    margin: 20px 0 36px 0;
 }
 
 h1 {
@@ -48,6 +53,15 @@ button {
     padding: 6px 24px 6px 24px;
 }
 
+blockquote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: justify;
+    padding: 20px;
+    margin: 0 36px 0 36px;
+}
+
 header div {
     width: 49%;
     display: inline-block;
@@ -59,6 +73,7 @@ header .secondtext {
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
+    margin-right: 12px;
 }
 
 .cardcontainer img {
@@ -70,6 +85,12 @@ header .secondtext {
 
 .cardcontainer p {
     margin: 2px;
+}
+
+.quote p {
+    font-weight: bolder;
+    text-align: end;
+    margin: 0;
 }
 
 .logo {
@@ -104,10 +125,18 @@ header .secondtext {
     justify-content: center;
     gap: 5%;
     text-align: center;
+    margin-bottom: 72px;
 }
 
 .card {
     color: darkgrey;
     width: 155px;
     flex: 0 0 auto;
+}
+
+.quote {
+    color: #1F2937;
+    background-color: #E5E7EB;
+    padding-top: 72px;
+    padding-bottom: 72px;
 }
