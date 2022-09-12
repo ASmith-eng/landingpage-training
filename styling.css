@@ -4,7 +4,7 @@ body {
     margin: 0;
 }
 
-header {
+header, footer {
     background-color: #1F2937;
     padding: 20px 10% 0 10%;
     /*display: -webkit-box;
@@ -22,6 +22,10 @@ main {
 section {
     padding: 0 10% 0 10%;
     margin: 20px 0 36px 0;
+}
+
+footer {
+    text-align: center;
 }
 
 h1 {
@@ -70,6 +74,12 @@ header div {
     width: 49%;
     display: inline-block;
     padding-bottom: 80px;
+    margin: 0;
+}
+
+footer p {
+    color: #F9FAF8;
+    padding: 26px 0 36px 0;
     margin: 0;
 }
 
